@@ -24,7 +24,8 @@ def listar_tarefas():
     Dica: use um for com enumerate() para mostrar o índice e o nome.
     """
     # TODO: implementar lógica de listagem
-    pass
+    for i, j in enumerate(tarefas):
+        print(f"Tarefa {i + 1} - {j}")
 
 
 # Desafio 03: Marcar uma tarefa como concluída
@@ -102,4 +103,4 @@ def menu():
 # 2️ Faça commit das alterações, para cada commit crie uma tag.
 # 3️ Crie a tag final: tag: desafios-completos-v1.0
 
-# menu()  # Descomente para testar
+menu()  # Descomente para testar
